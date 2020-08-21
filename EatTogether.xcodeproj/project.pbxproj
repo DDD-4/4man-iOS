@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743A892824ECEB0900D005D1 /* SplashRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A892724ECEB0900D005D1 /* SplashRootViewController.swift */; };
+		743A892A24ECF48100D005D1 /* SplashSelectFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A892924ECF48100D005D1 /* SplashSelectFoodViewController.swift */; };
+		743A892C24ECF57000D005D1 /* SplashSelectGenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A892B24ECF57000D005D1 /* SplashSelectGenderViewController.swift */; };
+		743A892E24ECF5AA00D005D1 /* SplashIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A892D24ECF5AA00D005D1 /* SplashIntroViewController.swift */; };
+		743A893D24ED47BC00D005D1 /* BasePageChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A893C24ED47BC00D005D1 /* BasePageChildViewController.swift */; };
+		743A893F24ED488D00D005D1 /* SplashDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A893E24ED488D00D005D1 /* SplashDataController.swift */; };
+		743A894224EE500F00D005D1 /* SelectFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A894124EE500F00D005D1 /* SelectFoodCell.swift */; };
+		743A894624EE8CA900D005D1 /* SelectFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A894524EE8CA900D005D1 /* SelectFood.swift */; };
+		743A894924EE92A500D005D1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A894824EE92A500D005D1 /* ApiService.swift */; };
+		7441027724EC0E3500E37345 /* Spoqa Han Sans Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027324EC0E3500E37345 /* Spoqa Han Sans Thin.ttf */; };
+		7441027824EC0E3500E37345 /* Spoqa Han Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027424EC0E3500E37345 /* Spoqa Han Sans Bold.ttf */; };
+		7441027924EC0E3500E37345 /* Spoqa Han Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */; };
+		7441027A24EC0E3500E37345 /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */; };
+		7441027E24EC14C400E37345 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7441027D24EC14C400E37345 /* UIKitExtension.swift */; };
 		9AA523050709504396464587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA520F999729A2486311C3F /* LaunchScreen.storyboard */; };
 		9AA5231A53FC286C8CD18870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */; };
-		9AA52345199004928EC9700F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA522B4FF93ACCEF36D2B91 /* ViewController.swift */; };
 		9AA52505D6BC38C3C96C7ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5226D72684DA881EA5437 /* Assets.xcassets */; };
-		9AA52820C0A7E7307520D71C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA52778515D7F8283F7D891 /* SceneDelegate.swift */; };
-		9AA529A9D11CBC1B742F2AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA523C51DC576F18840A6A1 /* Main.storyboard */; };
+		9AA529A9D11CBC1B742F2AC6 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA523C51DC576F18840A6A1 /* Splash.storyboard */; };
+		FFCC099E1E54AB50F8BB627F /* Pods_EatTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5070D3A711E82C62360EC8D6 /* Pods_EatTogether.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5070D3A711E82C62360EC8D6 /* Pods_EatTogether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EatTogether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666ECE09B67FF08E471750EE /* Pods-EatTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatTogether.debug.xcconfig"; path = "Target Support Files/Pods-EatTogether/Pods-EatTogether.debug.xcconfig"; sourceTree = "<group>"; };
+		743A892724ECEB0900D005D1 /* SplashRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRootViewController.swift; sourceTree = "<group>"; };
+		743A892924ECF48100D005D1 /* SplashSelectFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSelectFoodViewController.swift; sourceTree = "<group>"; };
+		743A892B24ECF57000D005D1 /* SplashSelectGenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSelectGenderViewController.swift; sourceTree = "<group>"; };
+		743A892D24ECF5AA00D005D1 /* SplashIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashIntroViewController.swift; sourceTree = "<group>"; };
+		743A893C24ED47BC00D005D1 /* BasePageChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageChildViewController.swift; sourceTree = "<group>"; };
+		743A893E24ED488D00D005D1 /* SplashDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashDataController.swift; sourceTree = "<group>"; };
+		743A894124EE500F00D005D1 /* SelectFoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFoodCell.swift; sourceTree = "<group>"; };
+		743A894524EE8CA900D005D1 /* SelectFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFood.swift; sourceTree = "<group>"; };
+		743A894824EE92A500D005D1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7441027324EC0E3500E37345 /* Spoqa Han Sans Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Thin.ttf"; sourceTree = "<group>"; };
+		7441027424EC0E3500E37345 /* Spoqa Han Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Bold.ttf"; sourceTree = "<group>"; };
+		7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Light.ttf"; sourceTree = "<group>"; };
+		7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
+		7441027D24EC14C400E37345 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 		9AA5200A29F1C88873745283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA5226D72684DA881EA5437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AA522B4FF93ACCEF36D2B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AA52778515D7F8283F7D891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AA529263B04AAB8C90A7042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA529263B04AAB8C90A7042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		9AA52A74482262160BAE0B63 /* EatTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA52B0D77EC20CAE7858C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A087ED0B89E9E57875735C2A /* Pods-EatTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatTogether.release.xcconfig"; path = "Target Support Files/Pods-EatTogether/Pods-EatTogether.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCC099E1E54AB50F8BB627F /* Pods_EatTogether.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		743A892624ECEAE200D005D1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				743A894024EE496200D005D1 /* SelectFood */,
+				743A892724ECEB0900D005D1 /* SplashRootViewController.swift */,
+				743A892B24ECF57000D005D1 /* SplashSelectGenderViewController.swift */,
+				743A892D24ECF5AA00D005D1 /* SplashIntroViewController.swift */,
+				743A893E24ED488D00D005D1 /* SplashDataController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		743A893A24ED47A200D005D1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				743A893B24ED47A700D005D1 /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		743A893B24ED47A700D005D1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				743A893C24ED47BC00D005D1 /* BasePageChildViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		743A894024EE496200D005D1 /* SelectFood */ = {
+			isa = PBXGroup;
+			children = (
+				743A892924ECF48100D005D1 /* SplashSelectFoodViewController.swift */,
+				743A894124EE500F00D005D1 /* SelectFoodCell.swift */,
+			);
+			path = SelectFood;
+			sourceTree = "<group>";
+		};
+		743A894324EE8B8B00D005D1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				743A894724EE907000D005D1 /* Network */,
+				743A894424EE8BA300D005D1 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		743A894424EE8BA300D005D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743A894524EE8CA900D005D1 /* SelectFood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743A894724EE907000D005D1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				743A894824EE92A500D005D1 /* ApiService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7441027124EBBA7B00E37345 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				743A892624ECEAE200D005D1 /* Splash */,
+				9AA523C51DC576F18840A6A1 /* Splash.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7441027224EC0C9000E37345 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7441027424EC0E3500E37345 /* Spoqa Han Sans Bold.ttf */,
+				7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */,
+				7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */,
+				7441027324EC0E3500E37345 /* Spoqa Han Sans Thin.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7441027C24EC14B000E37345 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7441027D24EC14C400E37345 /* UIKitExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9AA5235D35E37CE5A07F3664 = {
 			isa = PBXGroup;
 			children = (
 				9AA52647EDF139D3A9AABBED /* Products */,
 				9AA5267007A8F6C3A68AAD1C /* EatTogether */,
+				DF7E1338E3B126F226CBEC3D /* Pods */,
+				E87E483BFFE4A2136318574D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +177,34 @@
 		9AA5267007A8F6C3A68AAD1C /* EatTogether */ = {
 			isa = PBXGroup;
 			children = (
+				743A894324EE8B8B00D005D1 /* Data */,
+				743A893A24ED47A200D005D1 /* Common */,
+				7441027C24EC14B000E37345 /* Extensions */,
+				7441027224EC0C9000E37345 /* Resources */,
+				7441027124EBBA7B00E37345 /* Presentation */,
 				9AA52B0D77EC20CAE7858C06 /* Info.plist */,
 				9AA5226D72684DA881EA5437 /* Assets.xcassets */,
 				9AA520F999729A2486311C3F /* LaunchScreen.storyboard */,
 				9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */,
-				9AA52778515D7F8283F7D891 /* SceneDelegate.swift */,
-				9AA522B4FF93ACCEF36D2B91 /* ViewController.swift */,
-				9AA523C51DC576F18840A6A1 /* Main.storyboard */,
 			);
 			path = EatTogether;
+			sourceTree = "<group>";
+		};
+		DF7E1338E3B126F226CBEC3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666ECE09B67FF08E471750EE /* Pods-EatTogether.debug.xcconfig */,
+				A087ED0B89E9E57875735C2A /* Pods-EatTogether.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E87E483BFFE4A2136318574D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5070D3A711E82C62360EC8D6 /* Pods_EatTogether.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AA52A595A8AD78D20D9A745 /* Build configuration list for PBXNativeTarget "EatTogether" */;
 			buildPhases = (
+				F05A2BF548BFC3D04A0D9586 /* [CP] Check Pods Manifest.lock */,
 				9AA523ADDF7FA3F83EDA0BE6 /* Sources */,
 				9AA52F4E215EBD0FB0F16861 /* Frameworks */,
 				9AA5221ABA6E7FBA5060536E /* Resources */,
+				653B92EC2062BADA93E955A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,7 +242,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = 9AA5235D35E37CE5A07F3664;
 			productRefGroup = 9AA52647EDF139D3A9AABBED /* Products */;
@@ -119,20 +263,75 @@
 			files = (
 				9AA52505D6BC38C3C96C7ACE /* Assets.xcassets in Resources */,
 				9AA523050709504396464587 /* LaunchScreen.storyboard in Resources */,
-				9AA529A9D11CBC1B742F2AC6 /* Main.storyboard in Resources */,
+				7441027924EC0E3500E37345 /* Spoqa Han Sans Light.ttf in Resources */,
+				7441027824EC0E3500E37345 /* Spoqa Han Sans Bold.ttf in Resources */,
+				7441027A24EC0E3500E37345 /* Spoqa Han Sans Regular.ttf in Resources */,
+				7441027724EC0E3500E37345 /* Spoqa Han Sans Thin.ttf in Resources */,
+				9AA529A9D11CBC1B742F2AC6 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		653B92EC2062BADA93E955A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EatTogether/Pods-EatTogether-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EatTogether/Pods-EatTogether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05A2BF548BFC3D04A0D9586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EatTogether-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AA523ADDF7FA3F83EDA0BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743A893F24ED488D00D005D1 /* SplashDataController.swift in Sources */,
+				743A894624EE8CA900D005D1 /* SelectFood.swift in Sources */,
+				743A892E24ECF5AA00D005D1 /* SplashIntroViewController.swift in Sources */,
+				743A892C24ECF57000D005D1 /* SplashSelectGenderViewController.swift in Sources */,
 				9AA5231A53FC286C8CD18870 /* AppDelegate.swift in Sources */,
-				9AA52820C0A7E7307520D71C /* SceneDelegate.swift in Sources */,
-				9AA52345199004928EC9700F /* ViewController.swift in Sources */,
+				743A892A24ECF48100D005D1 /* SplashSelectFoodViewController.swift in Sources */,
+				743A894924EE92A500D005D1 /* ApiService.swift in Sources */,
+				7441027E24EC14C400E37345 /* UIKitExtension.swift in Sources */,
+				743A894224EE500F00D005D1 /* SelectFoodCell.swift in Sources */,
+				743A893D24ED47BC00D005D1 /* BasePageChildViewController.swift in Sources */,
+				743A892824ECEB0900D005D1 /* SplashRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,12 +346,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		9AA523C51DC576F18840A6A1 /* Main.storyboard */ = {
+		9AA523C51DC576F18840A6A1 /* Splash.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9AA529263B04AAB8C90A7042 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Splash.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -208,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -220,12 +419,15 @@
 		};
 		9AA52B00D266447996DD48E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A087ED0B89E9E57875735C2A /* Pods-EatTogether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EatTogether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourman.EatTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos13.2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -233,12 +435,15 @@
 		};
 		9AA52BB0244C395534C33589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666ECE09B67FF08E471750EE /* Pods-EatTogether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EatTogether/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourman.EatTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos13.2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,12 +493,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -317,6 +521,7 @@
 				9AA52B00D266447996DD48E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
