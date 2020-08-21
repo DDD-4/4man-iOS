@@ -10,6 +10,8 @@ import UIKit
 
 class SplashSelectFoodViewController: BasePageChildViewController {
     @IBOutlet weak var foodCollectionView: UICollectionView!
+    
+    private let foodCelltype: CellType = .selectFood
 
     private var foodList: [SelectFood] = [] {
         didSet {
@@ -41,13 +43,26 @@ extension SplashSelectFoodViewController: UICollectionViewDelegate, UICollection
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "selectFoodCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: foodCelltype.identifier, for: indexPath)
         if let foodCell = cell as? SelectFoodCell {
             foodCell.update(item: foodList[indexPath.item])
         }
         return cell
 
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return foodCelltype.size
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 30
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
 
 
 }

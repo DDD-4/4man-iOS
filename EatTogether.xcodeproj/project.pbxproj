@@ -21,6 +21,7 @@
 		7441027924EC0E3500E37345 /* Spoqa Han Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */; };
 		7441027A24EC0E3500E37345 /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */; };
 		7441027E24EC14C400E37345 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7441027D24EC14C400E37345 /* UIKitExtension.swift */; };
+		74E2C24924EF9A5E0075698A /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2C24824EF9A5E0075698A /* CellType.swift */; };
 		9AA523050709504396464587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA520F999729A2486311C3F /* LaunchScreen.storyboard */; };
 		9AA5231A53FC286C8CD18870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */; };
 		9AA52505D6BC38C3C96C7ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5226D72684DA881EA5437 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Light.ttf"; sourceTree = "<group>"; };
 		7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
 		7441027D24EC14C400E37345 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		74E2C24824EF9A5E0075698A /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
 		9AA5200A29F1C88873745283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA5226D72684DA881EA5437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				743A893C24ED47BC00D005D1 /* BasePageChildViewController.swift */,
+				74E2C24824EF9A5E0075698A /* CellType.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -236,6 +239,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = FourMan;
+				TargetAttributes = {
+					9AA5203DE562DFD4B7AF9269 = {
+						DevelopmentTeam = AL9L4NE9HL;
+					};
+				};
 			};
 			buildConfigurationList = 9AA5283182E866D68BFAC9E9 /* Build configuration list for PBXProject "EatTogether" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -328,6 +336,7 @@
 				9AA5231A53FC286C8CD18870 /* AppDelegate.swift in Sources */,
 				743A892A24ECF48100D005D1 /* SplashSelectFoodViewController.swift in Sources */,
 				743A894924EE92A500D005D1 /* ApiService.swift in Sources */,
+				74E2C24924EF9A5E0075698A /* CellType.swift in Sources */,
 				7441027E24EC14C400E37345 /* UIKitExtension.swift in Sources */,
 				743A894224EE500F00D005D1 /* SelectFoodCell.swift in Sources */,
 				743A893D24ED47BC00D005D1 /* BasePageChildViewController.swift in Sources */,
@@ -422,12 +431,13 @@
 			baseConfigurationReference = A087ED0B89E9E57875735C2A /* Pods-EatTogether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
 				INFOPLIST_FILE = EatTogether/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourman.EatTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos13.2;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,12 +448,13 @@
 			baseConfigurationReference = 666ECE09B67FF08E471750EE /* Pods-EatTogether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
 				INFOPLIST_FILE = EatTogether/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourman.EatTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos13.2;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

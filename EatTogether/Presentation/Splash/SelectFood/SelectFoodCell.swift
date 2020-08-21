@@ -12,6 +12,11 @@ class SelectFoodCell: UICollectionViewCell {
     @IBOutlet weak var foodImageView: UIImageView!
     @IBOutlet weak var foodtitleLabel: UILabel!
 
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.contentView.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
     func update(item: SelectFood) {
         self.foodImageView.image = UIImage(named: item.imageName)
         self.foodtitleLabel.text = item.foodName

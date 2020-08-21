@@ -52,3 +52,15 @@ extension UIButton {
     }
 }
 
+extension NSLayoutConstraint {
+    @IBInspectable var heightConstraint: CGFloat {
+        get { self.heightConstraint }
+        set { self.constant = UIScreen.main.bounds.height / 812 * newValue }
+    }
+    
+    @IBInspectable var widtConstraint: CGFloat {
+        get { self.widtConstraint }
+        set { self.constant = UIScreen.main.bounds.width / 375 * newValue }
+    }
+}
+

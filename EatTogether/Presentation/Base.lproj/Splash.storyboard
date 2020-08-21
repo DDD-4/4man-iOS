@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z1S-AJ-srX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z1S-AJ-srX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -79,7 +80,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CQr-k1-Mdm" secondAttribute="trailing" id="Wne-0X-D07"/>
                             <constraint firstItem="j3S-9H-kgM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dIA-HB-9RH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wTN-37-qgu" secondAttribute="bottom" constant="46" id="jhh-VM-1uE"/>
-                            <constraint firstItem="17g-x6-bkK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="nHe-JH-tCc"/>
+                            <constraint firstItem="17g-x6-bkK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="nHe-JH-tCc">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="heightConstraint">
+                                        <real key="value" value="84"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
                             <constraint firstItem="wTN-37-qgu" firstAttribute="top" secondItem="CQr-k1-Mdm" secondAttribute="bottom" id="rm7-cn-Hj2"/>
                             <constraint firstItem="CQr-k1-Mdm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wty-LG-RZZ"/>
                             <constraint firstItem="wTN-37-qgu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="xtI-nv-JoL"/>
@@ -155,9 +162,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dLE-fK-Ua3">
-                                <rect key="frame" x="54" y="136" width="306" height="650"/>
+                                <rect key="frame" x="54" y="303.5" width="306" height="329"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="iKE-hm-5yN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="329" id="77J-qf-eMU"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="iKE-hm-5yN">
                                     <size key="itemSize" width="105" height="122"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -171,8 +181,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="105" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한식" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yw-Yy-3SW">
-                                                    <rect key="frame" x="0.0" y="80" width="105" height="24"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한식" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yw-Yy-3SW">
+                                                    <rect key="frame" x="0.0" y="65" width="105" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="27D-3Z-Ufi"/>
                                                     </constraints>
@@ -181,7 +191,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R9H-81-CA2">
-                                                    <rect key="frame" x="20" y="15" width="65" height="55"/>
+                                                    <rect key="frame" x="20" y="0.0" width="65" height="55"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="55" id="ihQ-eQ-24R"/>
                                                         <constraint firstAttribute="width" constant="55" id="kjA-mD-S5x"/>
@@ -191,7 +201,7 @@
                                             <constraints>
                                                 <constraint firstItem="7Yw-Yy-3SW" firstAttribute="centerX" secondItem="GYu-ZI-OiD" secondAttribute="centerX" id="4yR-8v-h5u"/>
                                                 <constraint firstItem="7Yw-Yy-3SW" firstAttribute="top" secondItem="R9H-81-CA2" secondAttribute="bottom" constant="10" id="F4M-7O-4Md"/>
-                                                <constraint firstItem="R9H-81-CA2" firstAttribute="top" secondItem="GYu-ZI-OiD" secondAttribute="top" constant="15" id="P6e-aC-gsn"/>
+                                                <constraint firstItem="R9H-81-CA2" firstAttribute="top" secondItem="GYu-ZI-OiD" secondAttribute="top" id="P6e-aC-gsn"/>
                                                 <constraint firstItem="7Yw-Yy-3SW" firstAttribute="leading" secondItem="GYu-ZI-OiD" secondAttribute="leading" id="fXa-8j-FVA"/>
                                                 <constraint firstItem="R9H-81-CA2" firstAttribute="leading" secondItem="GYu-ZI-OiD" secondAttribute="leading" constant="20" id="o4d-4v-cag"/>
                                                 <constraint firstAttribute="trailing" secondItem="R9H-81-CA2" secondAttribute="trailing" constant="20" id="quq-Lk-rN4"/>
@@ -210,10 +220,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.98039215690000003" green="0.97254901959999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
                         <constraints>
-                            <constraint firstItem="X4r-8i-tSH" firstAttribute="trailing" secondItem="dLE-fK-Ua3" secondAttribute="trailing" constant="54" id="FXb-z4-3eu"/>
-                            <constraint firstItem="dLE-fK-Ua3" firstAttribute="top" secondItem="X4r-8i-tSH" secondAttribute="top" constant="92" id="UCq-IE-zwB"/>
-                            <constraint firstItem="dLE-fK-Ua3" firstAttribute="leading" secondItem="X4r-8i-tSH" secondAttribute="leading" constant="54" id="ZfS-Qp-k9q"/>
-                            <constraint firstItem="X4r-8i-tSH" firstAttribute="bottom" secondItem="dLE-fK-Ua3" secondAttribute="bottom" constant="76" id="kgs-QQ-EFH"/>
+                            <constraint firstItem="X4r-8i-tSH" firstAttribute="trailing" secondItem="dLE-fK-Ua3" secondAttribute="trailing" constant="54" id="FXb-z4-3eu">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="widtConstraint">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="dLE-fK-Ua3" firstAttribute="leading" secondItem="X4r-8i-tSH" secondAttribute="leading" constant="54" id="ZfS-Qp-k9q">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="widtConstraint">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="dLE-fK-Ua3" firstAttribute="centerY" secondItem="ZCe-Wd-2oa" secondAttribute="centerY" constant="20" id="qIc-uf-wyB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X4r-8i-tSH"/>
                     </view>
