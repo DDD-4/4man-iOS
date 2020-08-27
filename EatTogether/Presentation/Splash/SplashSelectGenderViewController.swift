@@ -10,6 +10,8 @@ import UIKit
 
 class SplashSelectGenderViewController: BasePageChildViewController {
 
+    @IBOutlet weak var manView: UIView!
+    @IBOutlet weak var womanView: UIView!
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         pageIndex = .selectGender
