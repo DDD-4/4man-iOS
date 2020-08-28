@@ -10,6 +10,8 @@ import UIKit
 
 class SplashIntroViewController: BasePageChildViewController {
 
+    @IBOutlet weak var nicknameTextField: FormTextField!
+    @IBOutlet weak var helloTextView: UITextView!
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         pageIndex = .intro

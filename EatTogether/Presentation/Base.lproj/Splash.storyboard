@@ -334,21 +334,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="introduce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHR-Oo-KWd">
-                                <rect key="frame" x="159" y="347" width="73" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="닉네임을 작성해주세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nF7-Qv-pRs" customClass="FormTextField" customModule="EatTogether" customModuleProvider="target">
+                                <rect key="frame" x="30" y="104" width="354" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="inset">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pRP-ZF-FaC">
+                                <rect key="frame" x="30" y="187" width="354" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="B0j-Fi-GGV"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="인사말을 남겨주세요"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215690000003" green="0.97254901959999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                        <constraints>
+                            <constraint firstItem="nF7-Qv-pRs" firstAttribute="leading" secondItem="pSD-0e-gmt" secondAttribute="leading" constant="30" id="Lja-Ul-hGE"/>
+                            <constraint firstItem="pSD-0e-gmt" firstAttribute="trailing" secondItem="nF7-Qv-pRs" secondAttribute="trailing" constant="30" id="NLB-CO-pnl"/>
+                            <constraint firstItem="pRP-ZF-FaC" firstAttribute="leading" secondItem="nF7-Qv-pRs" secondAttribute="leading" id="W95-gv-pRZ"/>
+                            <constraint firstItem="pRP-ZF-FaC" firstAttribute="top" secondItem="nF7-Qv-pRs" secondAttribute="bottom" constant="30" id="a3J-dL-tC8"/>
+                            <constraint firstItem="pRP-ZF-FaC" firstAttribute="trailing" secondItem="nF7-Qv-pRs" secondAttribute="trailing" id="abI-kq-Y8D"/>
+                            <constraint firstItem="nF7-Qv-pRs" firstAttribute="top" secondItem="pSD-0e-gmt" secondAttribute="top" constant="60" id="qqI-me-QcD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pSD-0e-gmt"/>
                     </view>
+                    <connections>
+                        <outlet property="helloTextView" destination="pRP-ZF-FaC" id="5Ou-2Y-RDS"/>
+                        <outlet property="nicknameTextField" destination="nF7-Qv-pRs" id="EUU-pY-S8m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fkC-Wr-2oF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2651" y="541"/>
+            <point key="canvasLocation" x="2650.7246376811595" y="540.40178571428567"/>
         </scene>
     </scenes>
     <resources>
