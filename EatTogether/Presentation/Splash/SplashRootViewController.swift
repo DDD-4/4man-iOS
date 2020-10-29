@@ -51,7 +51,6 @@ class SplashRootViewController: UIViewController {
             }
             transitionPageIndex = currentPageIndex.next
             pageDirection = .forward
-
         case backButton:
             transitionPageIndex = currentPageIndex.previous
             pageDirection = .reverse

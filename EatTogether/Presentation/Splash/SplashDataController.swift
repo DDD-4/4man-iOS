@@ -12,7 +12,7 @@ class SplashDataController {
     private let apiService = ApiService()
     
     func getFoodList() -> [SelectFood] {
-        return [
+         [
             SelectFood(imageName: "KoreanFood", foodName: "한식"),
             SelectFood(imageName: "JapaneseFood", foodName: "돈까스·회·일식"),
             SelectFood(imageName: "WesternFood", foodName: "양식"),

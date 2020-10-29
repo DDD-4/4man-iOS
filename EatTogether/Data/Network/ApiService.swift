@@ -10,5 +10,9 @@ import Foundation
 import Alamofire
 
 class ApiService {
+    public static let shared = ApiService()
     
+//    func request() {
+//        AF.request(met)
+//    }
 }

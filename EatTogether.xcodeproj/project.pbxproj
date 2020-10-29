@@ -21,6 +21,7 @@
 		7441027924EC0E3500E37345 /* Spoqa Han Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */; };
 		7441027A24EC0E3500E37345 /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */; };
 		7441027E24EC14C400E37345 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7441027D24EC14C400E37345 /* UIKitExtension.swift */; };
+		74B9FF90250075D2000EB563 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9FF8F250075D2000EB563 /* EndPoint.swift */; };
 		74E2C24924EF9A5E0075698A /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2C24824EF9A5E0075698A /* CellType.swift */; };
 		9AA523050709504396464587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA520F999729A2486311C3F /* LaunchScreen.storyboard */; };
 		9AA5231A53FC286C8CD18870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA524846836AFCE5CE9C3D7 /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 		7441027524EC0E3500E37345 /* Spoqa Han Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Light.ttf"; sourceTree = "<group>"; };
 		7441027624EC0E3500E37345 /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
 		7441027D24EC14C400E37345 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		74B9FF8F250075D2000EB563 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		74E2C24824EF9A5E0075698A /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
 		9AA5200A29F1C88873745283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA5226D72684DA881EA5437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				743A894824EE92A500D005D1 /* ApiService.swift */,
+				74B9FF8F250075D2000EB563 /* EndPoint.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B9FF90250075D2000EB563 /* EndPoint.swift in Sources */,
 				743A893F24ED488D00D005D1 /* SplashDataController.swift in Sources */,
 				743A894624EE8CA900D005D1 /* SelectFood.swift in Sources */,
 				743A892E24ECF5AA00D005D1 /* SplashIntroViewController.swift in Sources */,
